@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1566552863">
+  <project timestamp="1566552863">
+    <package name="Coverage\Run">
+      <file name="/var/www/phpunit-check-coverage/src/Run.php">
+        <class name="Coverage\Run" namespace="Coverage">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="24" type="method" name="run" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <metrics loc="32" ncloc="20" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+    </package>
+    <metrics files="160" loc="11194" ncloc="7396" classes="110" methods="544" coveredmethods="221" conditionals="0" coveredconditionals="0" statements="2472" coveredstatements="1274" elements="3016" coveredelements="1495"/>
+  </project>
+</coverage>

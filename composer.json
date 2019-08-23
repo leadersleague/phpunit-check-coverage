@@ -1,0 +1,15 @@
+{
+    "name": "leadersleague/phpunit-check-coverage",
+    "autoload": {
+        "psr-4": {
+            "Coverage\\": "src/",
+            "Test\\": "tests/"
+        }
+    },
+    "require": {
+      "ext-simplexml": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
