@@ -1,5 +1,7 @@
 FROM php:7.3-fpm
 
+RUN apt-get update && apt-get -y install git
+
 RUN mkdir /data
 WORKDIR /data
 
