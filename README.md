@@ -3,3 +3,5 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/leadersleague/phpunit-check-coverage/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/leadersleague/phpunit-check-coverage/?branch=master)
 
 # phpunit-check-coverage
+
+Set a minimum acceptable code coverage in your pipeline
