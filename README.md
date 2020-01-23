@@ -13,6 +13,18 @@ With [composer](https://getcomposer.org), require:
 
 `composer require leadersleague/phpunit-check-coverage`
 
+## Usage
+
+Run unit test with specified coverage:
+
+`php bin/phpunit -c phpunit.xml.dist --coverage-clover coverage.xml`
+
+Run analyze of coverage report and success if coverage is more than the limit:
+
+`php bin/coverage coverage.xml 80`
+
+where 80 is the minimum coverage percent.
+
 ## Developed & Maintained by
 [Mehdi Youb](https://github.com/Medzoner) 
 
