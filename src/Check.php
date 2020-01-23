@@ -26,15 +26,15 @@ class Check
 
         $metrics = (new SimpleXMLElement(file_get_contents($coverageFilePath)))->xpath('//metrics');
         [$totalElements, $checkedElements] = $this->getTotals($metrics);
-        $coverage = $this->getPercent($checkedElements, $totalElements);
+        $coveragePercent = $this->getPercent($checkedElements, $totalElements);
 
-        if ($coverage < $minPercent) {
+        if ($coveragePercent < $minPercent) {
             throw new ErrorException(
-                sprintf('Code coverage is %d percent, accepted is %d percent', $coverage, $minPercent)
+                sprintf('Code coverage is %d percent, accepted is %d percent', $coveragePercent, $minPercent)
             );
         }
 
-        return $coverage;
+        return $coveragePercent;
     }
 
     /**
@@ -60,6 +60,6 @@ class Check
             $totalElements += (int)$metric['elements'];
             $checkedElements += (int)$metric['coveredelements'];
         }
-        return array($totalElements, $checkedElements);
+        return [$totalElements, $checkedElements];
     }
 }

@@ -15,8 +15,8 @@ if (!isset($argv[2])) {
 try {
     echo sprintf('Run coverage check:'.PHP_EOL);
     $coverage = (new Check())->run($argv[1], $argv[2]);
-    echo sprintf('%d percent', $coverage);
+    echo sprintf('%d percent'.PHP_EOL, $coverage);
 } catch (ErrorException $e) {
-    echo 'Error: '.$e->getMessage();
+    echo 'Error: '.$e->getMessage().PHP_EOL;
     exit(1);
 }
