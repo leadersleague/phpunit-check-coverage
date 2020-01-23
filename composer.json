@@ -1,6 +1,8 @@
 {
     "name": "leadersleague/phpunit-check-coverage",
     "description": "Set a minimum acceptable code coverage in your pipeline",
+    "license": "apache-2.0",
+    "type": "project",
     "autoload": {
         "psr-4": {
             "Coverage\\": "src/",
