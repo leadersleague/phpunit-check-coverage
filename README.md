@@ -2,22 +2,22 @@
 [![Build Status](https://travis-ci.com/leadersleague/phpunit-check-coverage.svg?branch=master)](https://travis-ci.com/leadersleague/phpunit-check-coverage)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Medzoner/phpunit-check-coverage/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Medzoner/phpunit-check-coverage/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/Medzoner/phpunit-check-coverage/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/Medzoner/phpunit-check-coverage/?branch=master)
-[![GitHub license](https://img.shields.io/github/license/S-ayanide/Flutter-TicTacToe.svg?style=for-the-badge)](https://github.com/Medzoner/phpunit-check-coverage/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/S-ayanide/Flutter-TicTacToe.svg?style=for-the-badge)](https://github.com/leadersleague/phpunit-check-coverage/blob/master/LICENSE)
 
 ## Short Description
-This program is to be integrated into your continuous integration processes in order to be able to stop it (fail) if the test coverage rate is lower than that set by the team. Thus we avoid regressions following the addition of new lines of code.
+Set a minimum acceptable code coverage in your pipeline
 
 ## Installation
 
 With [composer](https://getcomposer.org), require:
 
-`composer require knplabs/knp-snappy-bundle`
+`composer require leadersleague/phpunit-check-coverage`
 
 ## Developed & Maintained by
 [Mehdi Youb](https://github.com/Medzoner) 
 
 ## License 
-[![GitHub license](https://img.shields.io/github/license/S-ayanide/Flutter-TicTacToe.svg?style=for-the-badge)](https://github.com/S-ayanide/Flutter-TicTacToe/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/S-ayanide/Flutter-TicTacToe.svg?style=for-the-badge)](https://github.com/leadersleague/phpunit-check-coverage/blob/master/LICENSE)
 ```Copyright 2019 Sayan Mondal
 
 Licensed under the Apache License, Version 2.0 (the "License");

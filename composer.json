@@ -1,6 +1,6 @@
 {
     "name": "leadersleague/phpunit-check-coverage",
-    "description": "This program is to be integrated into your continuous integration processes in order to be able to stop it (fail) if the test coverage rate is lower than that set by the team. Thus we avoid regressions following the addition of new lines of code.",
+    "description": "Set a minimum acceptable code coverage in your pipeline",
     "autoload": {
         "psr-4": {
             "Coverage\\": "src/",
